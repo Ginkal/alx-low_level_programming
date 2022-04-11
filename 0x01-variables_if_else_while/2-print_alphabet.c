@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-int l = "abcdefghijklmnopqrstuvwxyz";
+int l = 'abcdefghijklmnopqrstuvwxyz';
 while (l <= 'z')
 {
 putchar(l);

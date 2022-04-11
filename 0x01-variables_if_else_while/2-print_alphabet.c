@@ -9,10 +9,7 @@ int main(void)
 {
 int l = 'A';
 while (l <= 'Z')
-int l = 'a';
-while (l <= 'z')
 {
-putchar(tolower(l));
 putchar(l);
 l += l;
 }

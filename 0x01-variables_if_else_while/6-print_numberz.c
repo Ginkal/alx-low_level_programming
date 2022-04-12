@@ -7,12 +7,11 @@
 
 int main(void)
 {
-int n = 48;
-while (n <= 57)
+int n;
+for (n = 48 ; n <= 57; n++)
 {
 putchar(n);
-n += 1;
 }
-printf("\n");
+putchar ('\n');
 return (0);
 }

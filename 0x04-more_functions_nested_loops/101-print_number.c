@@ -1,14 +1,17 @@
 #include "main.h"
+
 /**
- * print_number - that prints an integer
- *@n: print int
+ * print_number - functio that prints an integer..
+ *@n: input value to check
  * Return: Always 0.
  */
+
 void print_number(int n)
 {
 unsigned int num, num2;
 int i;
 int aux = 1;
+
 if (n < 0)
 {
 n = n * -1;
@@ -25,6 +28,7 @@ num = num / 10;
 }
 _putchar((num2 / aux) + '0');
 aux = aux / 10;
+
 for (i = aux; i >= 1; i = i / 10)
 _putchar((num2 / i) % 10 + '0');
 }

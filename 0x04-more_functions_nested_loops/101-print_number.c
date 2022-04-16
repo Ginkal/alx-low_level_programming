@@ -14,7 +14,7 @@ n = n * -1;
 _putchar('-');
 }
 num = n;
-num2 num;
+num2 = num;
 if (num > 9)
 {
 while (num >= 10)
@@ -25,7 +25,7 @@ num = num / 10;
 _putchar((num2 / aux) + '0');
 aux = aux / 10;
 for (i = aux; i >= 1; i = i / 10)
-_putchar((num 2 / i) % 10 + '0');
+_putchar((num2 / i) % 10 + '0');
 }
 else
 _putchar(num + '0');
